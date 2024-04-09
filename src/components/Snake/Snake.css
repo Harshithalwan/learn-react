@@ -1,0 +1,50 @@
+.rootContainer {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playButton {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score {
+    display: block;
+    position: absolute;
+    top: 0;
+    padding-top: 5px;
+}
+.gameBoard {
+    border: solid;
+    border-width: 10px;
+    width: 50%;
+    aspect-ratio: 1;
+    border-color: rgba(78, 66, 66, 0.695);
+    position: relative;
+}
+.snake {
+    position: absolute;
+    display: flex;
+    gap: 2px;
+}
+.snakeHead {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.50);
+    width: 10px;
+    aspect-ratio: 1;
+    display: flex;
+}
+
+.food {
+    position: absolute;
+    background-color: green;
+    width: 10px;
+    aspect-ratio: 1;
+}
