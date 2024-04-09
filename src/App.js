@@ -13,7 +13,6 @@ function App() {
     <div className="container">
       <Link to="/homepage">Homepage</Link>
       <Link to="/snake">Snake</Link>
-      <Link to="/Test">Test</Link>
     </div>
   );
 }

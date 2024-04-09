@@ -12,7 +12,6 @@ import {
 import Homepage from "./components/Homepage/Homepage";
 import App from "./App";
 import Snake from "./components/Snake/Snake"
-import Test from "./components/Test/Test";
 
 const router = createBrowserRouter([
   {
@@ -30,10 +29,6 @@ const router = createBrowserRouter([
     element: (
       <Snake />
     )
-  },
-  {
-    path: "/test",
-    element: <Test />
   }
 ]);
 
